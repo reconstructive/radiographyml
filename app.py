@@ -35,6 +35,8 @@ print('Model loaded. Check http://127.0.0.1:5000/')
 
 
 # Model saved with Keras model.save()
+THIS_FOLDER = os.path.dirname(os.path.abspath(__file__))
+print("path", THIS_FOLDER)
 MODEL_PATH = 'models/my_model.h5'
 
 # Load your own trained model
