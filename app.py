@@ -40,11 +40,11 @@ print("path", THIS_FOLDER)
 #MODEL_PATH = "/app/models/my_model.h5"
 print(os.listdir())
 print(os.listdir('/app/models/'))
-MODEL_PATH = '/app/models'
+MODEL_PATH = '/app/models/'
 
 # Load your own trained model
 model = load_model(MODEL_PATH)
-model._make_predict_function()          # Necessary
+#model._make_predict_function()          # Necessary
 print('Model loaded. Start serving...')
 
 
