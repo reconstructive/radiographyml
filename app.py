@@ -43,7 +43,8 @@ print(os.listdir('/app/models/'))
 MODEL_PATH = '/app/models/'
 
 # Load your own trained model
-model = load_model(MODEL_PATH)
+#model = load_model(MODEL_PATH)
+model = tf.saved_model.load(MODEL_PATH)
 #model._make_predict_function()          # Necessary
 print('Model loaded. Start serving...')
 
