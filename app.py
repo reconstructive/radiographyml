@@ -41,7 +41,7 @@ print("path", THIS_FOLDER)
 print(os.listdir())
 print(os.listdir('/app/models/'))
 #MODEL_PATH = '/app/models/'
-MODEL_PATH = '/app/models/your_model.h5'
+MODEL_PATH = '/app/models/my_model.h5'
 
 # Load your own trained model
 model = load_model(MODEL_PATH)
