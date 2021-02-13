@@ -6,8 +6,6 @@
 
 A pretty and customizable web app to deploy your DL model with ease
 
-<a href="https://www.buymeacoffee.com/fing" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png" alt="Buy Me A Coffee"></a>
-
 ## Getting Started in 10 Minutes
 
 - Clone this repo 
