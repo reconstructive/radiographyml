@@ -45,7 +45,7 @@ print(os.listdir('/app/models/'))
 
 # Load your own trained model
 #model = load_model(MODEL_PATH)
-model = load_model("models/my_model.h5")
+model = load_model(os.path.join(os.getcwd(), 'models', 'my_model.h5'))
 #model = tf.saved_model.load(MODEL_PATH)
 #model._make_predict_function()          # Necessary
 print('Model loaded. Start serving...')
