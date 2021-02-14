@@ -20,8 +20,6 @@ import numpy as np
 from util import base64_to_pil
 import h5py
 
-from models import model
-
 # Declare a flask app
 app = Flask(__name__)
 
