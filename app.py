@@ -19,7 +19,7 @@ os.environ['TF_FORCE_GPU_ALLOW_GROWTH'] = 'true'
 import numpy as np
 from util import base64_to_pil
 
-from app.models import model
+from models import model
 
 # Declare a flask app
 app = Flask(__name__)
