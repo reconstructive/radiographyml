@@ -18,7 +18,7 @@ os.environ['TF_FORCE_GPU_ALLOW_GROWTH'] = 'true'
 # Some utilites
 import numpy as np
 from util import base64_to_pil
-import hdf5
+import h5py
 
 from models import model
 
