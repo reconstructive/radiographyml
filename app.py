@@ -19,6 +19,7 @@ os.environ['TF_FORCE_GPU_ALLOW_GROWTH'] = 'true'
 import numpy as np
 from util import base64_to_pil
 
+from models import model
 
 # Declare a flask app
 app = Flask(__name__)
@@ -46,7 +47,8 @@ print(os.listdir('/app/models/'))
 # Load your own trained model
 #model = load_model(MODEL_PATH)
 #model = load_model(os.path.join(os.getcwd(), 'models', 'my_model.h5'))
-model = load_model(os.path.join('models', 'my_model.h5'))
+#model = load_model(os.path.join('models', 'my_model.h5'))
+model = models.model.model()
 #model = tf.saved_model.load(MODEL_PATH)
 #model._make_predict_function()          # Necessary
 print('Model loaded. Start serving...')
