@@ -44,8 +44,8 @@ MODEL_PATH = 'models/'
 #MODEL_PATH = '/app/models/my_model.h5'
 
 # Load your own trained model
-#model = load_model(MODEL_PATH)
-model = tf.saved_model.load('models')
+model = load_model(MODEL_PATH)
+#model = tf.saved_model.load('models')
 #model = load_model(os.path.join(os.getcwd(), 'models', 'my_model.h5'))
 #model = load_model(os.path.join('models', 'my_model.h5'))
 #model = model.model()
