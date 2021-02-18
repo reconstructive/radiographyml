@@ -19,6 +19,7 @@ os.environ['TF_FORCE_GPU_ALLOW_GROWTH'] = 'true'
 import numpy as np
 from util import base64_to_pil
 import h5py
+graph = tf.get_default_graph()
 
 # Declare a flask app
 app = Flask(__name__)
