@@ -46,7 +46,7 @@ print("path", THIS_FOLDER)
 print(os.listdir())
 print(os.listdir('./models/'))
 #MODEL_PATH = '/app/models'
-MODEL_PATH = './models/my_model.h5'
+MODEL_PATH = '.\models\my_model.h5'
 
 # Load your own trained model
 global model
