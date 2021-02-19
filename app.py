@@ -20,6 +20,7 @@ import numpy as np
 from util import base64_to_pil
 import h5py
 #tf.compat.v1.reset_default_graph()
+tf.keras.backend.clear_session()
 
 global graph
 #graph = tf.get_default_graph()
