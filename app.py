@@ -22,7 +22,7 @@ import h5py
 #tf.compat.v1.reset_default_graph()
 
 global graph
-graph = tf.get_default_graph()
+#graph = tf.get_default_graph()
 
 # Declare a flask app
 app = Flask(__name__)
