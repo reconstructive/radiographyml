@@ -20,6 +20,8 @@ import numpy as np
 from util import base64_to_pil
 import h5py
 
+tf.reset_default_graph()
+
 # Declare a flask app
 app = Flask(__name__)
 
