@@ -50,7 +50,7 @@ MODEL_PATH = '.\models\my_model.h5'
 
 # Load your own trained model
 global model
-model = load_model(MODEL_PATH)
+model = load_model('/app/models/my_model1.h5')
 #model = tf.saved_model.load('models')
 #model = load_model(os.path.join(os.getcwd(), 'models', 'my_model.h5'))
 #model = load_model(os.path.join('models', 'my_model.h5'))
