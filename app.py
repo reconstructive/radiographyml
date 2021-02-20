@@ -1,5 +1,6 @@
 import os
 import sys
+from pathlib import Path
 
 # Flask
 from flask import Flask, redirect, url_for, request, render_template, Response, jsonify, redirect
@@ -47,6 +48,8 @@ print(os.listdir())
 print(os.listdir('./models/'))
 #MODEL_PATH = '/app/models'
 MODEL_PATH = '.\models\my_model.h5'
+
+print("model size", Path('/app/models/my_model1.h5').stat().st_size)
 
 # Load your own trained model
 global model
